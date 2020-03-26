@@ -1,8 +1,9 @@
 def oxford_comma(array)
  
- final_array = []
+ new_array = []
  number = array.length
- counter = 2
+ counter = 0
+ long_list = ""
  
  if number == 1
    array.join
@@ -11,7 +12,8 @@ def oxford_comma(array)
   else
  end
  
- while counter 
+ while counter < number-1
+  new_array << array[counter]
  
  
  
