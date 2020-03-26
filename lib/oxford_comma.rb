@@ -14,7 +14,7 @@ def oxford_comma(array)
         long_list << array[counter] + ", "
         counter += 1
       end
-      long_list << "and " array[-1]
+      long_list << "and " + array[-1]
     else
  end
  
