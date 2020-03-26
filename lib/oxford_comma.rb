@@ -9,7 +9,8 @@ def oxford_comma(array)
    array.join
    elsif number == 2
     array.join(" and ")
-  else
+    elsif number >=3
+    
  end
  
  while counter < number-1
