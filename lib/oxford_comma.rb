@@ -12,6 +12,9 @@ def oxford_comma(array)
     elsif number >=3
       while counter < number-1
         long_list << array[counter] + ", "
+        counter += 1
+      end
+      long_list << "and " array[-1]
  end
  
  
