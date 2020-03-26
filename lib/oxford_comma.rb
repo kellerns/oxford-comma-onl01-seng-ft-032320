@@ -10,8 +10,8 @@ def oxford_comma(array)
    elsif number == 2
     array.join(" and ")
     elsif number >=3
-    while counter < number-1
-  new_array << array[counter]
+      while counter < number-1
+        long_list << array[counter] + ", "
  end
  
  
